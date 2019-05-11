@@ -1,7 +1,7 @@
 Package: courserapackage
 Title: Analyze the Fatality Analysis Report
-Version: 0.0.0.9000
-Authors@R: Max Eysholdt, test@test.de
+Version: 0.1.0
+Authors@R: person("Eysholdt","Max", email="test@test.de", role = c("aut", "cre")
 Description: This package allows you to read and analyze the annual Fatality 
 Analysis Report of fatal injuries suffered in motor vehicle traffic crashes. You
 can summarize the fatalaties for each year or range of years and you can draw 
