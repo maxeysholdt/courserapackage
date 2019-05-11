@@ -11,7 +11,7 @@
 #'  used as input. If there is no correspnding report the functions returns a
 #'  warning.
 #'
-#' @importFrom dplyr mutate, select
+#' @import dplyr
 #' @importFrom magrittr "%>%"
 #'
 #' @examples
@@ -32,4 +32,5 @@ fars_read_years <- function(years) {
             })
       })
 }
+
 
