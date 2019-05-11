@@ -7,17 +7,18 @@
 #' the FAR. Can be all file formats which are readble by \code{\link{readr:
 #' :read_csv}}.
 #'
+#'
 #' @return The function returns the data as a \link{tibble}, a data frame
 #'  with class \link{tibble}
 #'
+#' @import dplyr
 #' @importFrom readr read_csv
-#' @importFrom dplyr tbl_df
 #'
 #' @examples
 #' \dontrun{fars_read("accident_2013.csv.bz2")}
 #' \dontrun{fars_read("accident_2013.csv")}
 
-fars_read <- function(filename) {
+fars_read <- function(filename){
       if(!file.exists(filename))
             stop("file '", filename, "' does not exist")
       data <- suppressMessages({
@@ -25,6 +26,4 @@ fars_read <- function(filename) {
       })
       dplyr::tbl_df(data)
 }
-
-
 

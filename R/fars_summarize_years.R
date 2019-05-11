@@ -1,4 +1,3 @@
-#
 #' Number of fatal injuries per month
 #'
 #' \code{fars_summarize_years} summarizes the number of fatal injuries for each
@@ -11,7 +10,7 @@
 #' month of the years you used as input. If there is no correspnding Report the
 #' functions returns a warning.
 #'
-#' @importFrom dplyr bind_rows, group_by, summarize, spread
+#' @import dplyr
 #' @importFrom magrittr "%>%"
 #'
 #' @examples

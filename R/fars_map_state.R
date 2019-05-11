@@ -10,7 +10,7 @@
 #' input year and state. If the input state number is not correct it returns an
 #' error. If the are no accidents it returns a message.
 #'
-#' @importFrom dplyr filter
+#' @import dplyr
 #' @importFrom maps map
 #' @importFrom graphics points
 #'
