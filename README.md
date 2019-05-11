@@ -18,16 +18,4 @@ You can install the released version of courserapackage from github.com with:
 devtools::install_github("maxeysholdt/courserapackage")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(courserapackage)
-
-fars_summarize_years(2013)
-
-fars_map_state("1", 2015)
-
-```
 
