@@ -1,6 +1,7 @@
 # courserapackage
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/maxeysholdt/courserapackage.svg?branch=master)](https://travis-ci.org/maxeysholdt/courserapackage)
 <!-- badges: end -->
 
 The goal of courserapackage is to learn to setup a package.
@@ -27,6 +28,6 @@ library(courserapackage)
 fars_summarize_years(2013)
 
 fars_map_state("1", 2015)
-## basic example code
+
 ```
 
