@@ -12,6 +12,7 @@
 #'
 #' @import dplyr
 #' @importFrom magrittr "%>%"
+#' @importFrom tidyr spread
 #'
 #' @examples
 #' \dontrun{fars_read_years(2015:2018)}
