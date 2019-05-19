@@ -1,7 +1,7 @@
 #' Map of fatal injuries
 #'
 #' \code{fars_map_state} draws a state map of the location of ball the fatal
-#' injuries of a given year and state using the \link[maps]{map} function
+#' injuries of a given year and state using the \code{\link[maps]{map}} function
 #'
 #' @param year The input year as an integer
 #' @param state.num The input state number either as string or number
@@ -11,8 +11,8 @@
 #' error. If the are no accidents it returns a message.
 #'
 #' @import dplyr
-#' @importFrom maps map
 #' @importFrom graphics points
+#' @importFrom maps map
 #'
 #' @examples
 #' \dontrun{fars_map_state(1,2013)}
