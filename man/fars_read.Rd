@@ -8,8 +8,7 @@ fars_read(filename)
 }
 \arguments{
 \item{filename}{Either a path to a file, a conncetion or the data containing
-the FAR. Can be all file formats which are readble by \code{\link{readr:
-:read_csv}}.}
+the FAR. Can be all file formats which are readble by \link[readr]{read_csv}}
 }
 \value{
 The function returns the data as a \link{tibble}, a data frame
@@ -17,7 +16,7 @@ The function returns the data as a \link{tibble}, a data frame
 }
 \description{
 \code{fars_read} reads the annual Fatality Analysis Report of fatal injuries
-suffered in motor vehicle traffic crashes using \code{\link{readr::read_csv}}
+suffered in motor vehicle traffic crashes using \link[readr]{read_csv}
 }
 \examples{
 \dontrun{fars_read("accident_2013.csv.bz2")}
