@@ -8,7 +8,7 @@ Description: This package allows you to read and analyze the annual Fatality
       crashes. You can summarize the fatalaties for each year or range of years 
       and you can draw state maps for the locations for each fatal injury in 
       each year.
-Depends: R (>= 3.4.4)
+Depends: R (>= 3.4)
 License: GNU GPL
 Encoding: UTF-8
 LazyData: true

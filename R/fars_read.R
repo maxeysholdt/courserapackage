@@ -1,10 +1,10 @@
 #' Read Fatality Analysis Report
 #'
 #' \code{fars_read} reads the annual Fatality Analysis Report of fatal injuries
-#' suffered in motor vehicle traffic crashes using \code{\link[readr]{read_csv}}
+#' suffered in motor vehicle traffic crashes using \link[readr]{read_csv}
 #'
 #' @param filename Either a path to a file, a conncetion or the data containing
-#' the FAR. Can be all file formats which are readble by \code{\link[readr]{read_csv}}
+#' the FAR. Can be all file formats which are readble by \link[readr]{read_csv}
 #'
 #'
 #' @return The function returns the data as a \link{tibble}, a data frame
